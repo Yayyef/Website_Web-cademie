@@ -1,0 +1,164 @@
+body {
+    width: 100%;
+    background-color: #08AEEA;
+    background-image: linear-gradient(315deg, #08AEEA 0%, #2AF598 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cadreCentral {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+/* STYLE DE LA BANNIERE */
+.banniere {
+    
+    height: 130px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.banniere h1 {
+    padding: 20px 0;
+}
+
+/* BOUTTONS DE PARTAGE LATERAUX */
+.barreLateralePartage {
+    position: fixed;
+    left: 0px;
+}
+
+/* STYLE BARRE DE NAVIGATION */
+.barreNavigation {
+    z-index: 4;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    height: 40px;
+    background-color: darkslategray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* text-align: center; */
+}
+
+.barreNavigation a {
+    padding-top: 10px;
+    width: 16.6%;
+    height: 100%;
+    text-align: center;
+    color: black;
+}
+
+.barreNavigation a:hover {
+    background-color: white;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+
+/* STYLE DU CAROUSEL */
+.conteneurCarousel {
+    margin: 15px auto 15px;
+    max-width: 1024px;
+    padding: 0 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* height: 130px; */
+    
+}
+
+/* STYLE CORPS DES ARTICLES ET RECETTES */
+.cadreImageArticle {
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0px auto 8px;
+}
+
+table {
+    margin: 20px auto;
+    width: 500px;
+    border: dotted;
+}
+
+td {
+    padding: 5px;
+    border: solid;
+}
+
+
+
+
+/* CSS POUR LES CARRES-VIGNETTES RECETTES */
+.conteneurCarres {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* font-size: 3rem; */
+}
+
+.carreRecettes {
+    overflow: hidden;
+    margin: 5px;
+    width: 325px;
+    height: 300px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.carreRecettes img {
+    width: 100%;
+    height: auto;
+}
+
+.carreRecettes img:hover {
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+
+.carreRecettes h2 {
+    z-index: 4;
+    padding: 15px;
+    background-color: green;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: darkslategray;
+}
+
+.footerBox {
+    margin: 0px auto;
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footerBoxMap {
+    width: 30%;
+    margin: 10px;
+    /* padding-right: 100px; */
+    border-right: dotted black;
+}
+
+.footerBoxCopyright {
+    margin: 10px;
+}
+
+
+/* REACTIVITE - RESPONSIVENESS */
+@media (max-width: 700px) {
+
+    .conteneurCarousel {
+        display: none;
+    }
+
+    /* A CORRIGER OU SUPPRIMER: ne s'affiche pas mais prend tout de même de la place (JS?) */
+    footer a {
+        display: none;
+    }
+}
