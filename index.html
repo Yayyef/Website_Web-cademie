@@ -16,23 +16,39 @@
 
 <body>
 
-    <div class="cadreCentral">
+      <!-- BANNIERE ET NAVIGATION -->
+      <div class="fondNavigation">
         <div class="barreNavigation">
-            <a href="">ACCEUIL</a>
-            <a href="recette.html">RECETTES</a>
-            <a href="">INGREDIENTS</a>
-            <a href="">ARTICLES</a>
-            <a href="">CONTACT</a>
-            <a href="">A PROPOS</a>
+          <a href="">ACCEUIL</a>
+          <a href="recette.html">RECETTES</a>
+          <a href="">INGREDIENTS</a>
+          <a href="">ARTICLES</a>
+          <a href="">CONTACT</a>
+          <a href="">A PROPOS</a>
         </div>
+      </div>
+
+      <div class="fondBanniere">
         <div class="banniere">
             <h1>Les morfals</h1>
         </div>
+      </div>
 
+    <div class="cadreCentral">
+        
+        <!-- BARRE LATERALE RESEAUX SOCIAUX -->
         <div class="barreLateralePartage">
-          <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world" url="index.html" target="_blank">Tweet</a>
+          <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world" url="index.html" target="_blank">
+            <div class="iconeRS"><img src="img/twitter-square-brands.svg" alt=""></div>
+          </a>
+          <a href="">
+            <div class="iconeRS"><img src="img/facebook-square-brands.svg" alt=""></div>
+          </a><a href="">
+            <div class="iconeRS"><img src="img/instagram-square-brands.svg" alt=""></div>
+          </a>
         </div>
         
+        <!-- CAROUSEL -->
         <div class="conteneurCarousel">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -42,13 +58,13 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/raviolis2.jpg" alt="First slide">
+                    <img class="d-block w-100" src="img/ramen_carousel.png" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="img/raviolis2.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="img/mapotofu_carousel.png" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="img/raviolis2.jpg" alt="Third slide">
+                    <img class="d-block w-100" src="img/gyozas_carousel.png" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -62,37 +78,62 @@
             </div>
         </div>
 
+        <div class="mobileDroit">
+          <!-- AUTRES ARTICLES -->
+          <div class="boiteArticles">
+            <div class="boiteArticlesContenu">
+              <h2>Nos Articles</h2>
+              <ul>
+                <li>Les ingrédients indispensables!</li>
+                <li>Mes ressources favorites pour apprendre à cuisiner</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              </ul>
+            </div>
+          </div>
+          <!-- BOITE NEWSLETTER -->
+          <div class="newsletter">
+            <div class="newsletterContenu">
+              <div class="newsletterTexte">
+                <p>Pour recevoir de nouvelles recettes et astuces culinaires abonnez-vous à notre newsletter!</p>
+              </div>
+              <input type="text" value="exemple@gmail.com">
+            </div>
+          </div>
+        </div>
+
+        <!-- CARRES POUR LES RECETTES -->
         <div class="conteneurCarres">
 
             <a href="recette.html">
               <div class="carreRecettes">
-                <img src="img/raviolis2.jpg" alt="Image please">
+                <img src="img/gyozas_vignette.png" alt="Image please">
                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolores harum unde vitae delectus vel?</h2>
               </div>
             </a>
 
             <div class="carreRecettes" href="recette.html">
-              <img src="img/mapo.jpg" alt="Image please">
+              <img src="img/ramen_vignette.png" alt="Image please">
               <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolores harum unde vitae delectus vel?</h2>
             </div>
             <div class="carreRecettes">
-              <img src="img/Ramen.jpg" alt="Image please">
+              <img src="img/mapotofu_vignette.png" alt="Image please">
               <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolores harum unde vitae delectus vel?</h2>
             </div>
             <div class="carreRecettes">
-              
+              <img src="img/boeufpochesichuan_vignette.png" alt="Image please">
               <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolores harum unde vitae delectus vel?</h2>
             </div>
             <div class="carreRecettes">
-              
+              <img src="img/pouletfrit_vignette.png" alt="Image please">
               <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolores harum unde vitae delectus vel?</h2>
             </div>
             <div class="carreRecettes">
-              
+              <img src="img/bibimbap_vignette.png" alt="Image please">
               <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolores harum unde vitae delectus vel?</h2>
             </div>
             <div class="carreRecettes">
-              
+              <img src="img/tofubraise_vignette.png" alt="Image please">
               <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolores harum unde vitae delectus vel?</h2>
             </div>
 
@@ -100,6 +141,7 @@
 
     </div>
     
+    <!-- FOOTER PLAN DU SITE ET COPYRIGHT -->
     <footer>
         <div class="footerBox">
           <div class="footerBoxMap">
@@ -107,13 +149,15 @@
                 <li>CONTACT</li>
                 <li>A PROPOS</li>
             </ul>
-            <br>
-            <p>
-              <a href="">ACCEUIL</a><br>
-              <a href="">RECETTES</a><br>
-              <a href="">INGREDIENTS</a><br>
-              <a href="">ARTICLES</a><br>
-            </p>
+            <div class="mapExtra">
+              <br>
+              <p>
+                <a href="">ACCEUIL</a><br>
+                <a href="">RECETTES</a><br>
+                <a href="">INGREDIENTS</a><br>
+                <a href="">ARTICLES</a><br>
+              </p>
+            </div>
           </div>
           <div class="footerBoxCopyright">
             <h3>&copy; Xavier Chassang 2021</h3>

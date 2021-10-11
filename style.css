@@ -6,13 +6,17 @@ body {
 }
 
 .cadreCentral {
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-left: 10%;
     max-width: 1024px;
 }
 
 /* STYLE DE LA BANNIERE */
+.fondBanniere {
+    background-image: linear-gradient(90deg, #cf0e0e 80%, #fd8b8b 100%);
+}
+
 .banniere {
-    
     height: 130px;
     text-align: center;
     font-size: 3rem;
@@ -20,31 +24,33 @@ body {
 }
 
 .banniere h1 {
-    padding: 20px 0;
-}
-
-/* BOUTTONS DE PARTAGE LATERAUX */
-.barreLateralePartage {
-    position: fixed;
-    left: 0px;
+    padding: 40px 0 0 10%;
 }
 
 /* STYLE BARRE DE NAVIGATION */
-.barreNavigation {
+.fondNavigation {
     z-index: 4;
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-    height: 40px;
     background-color: darkslategray;
+}
+
+.barreNavigation {
+    margin: 0 auto;
+    max-width: 1024px;
+    /* z-index: 4;
+    position: -webkit-sticky;
+    position: sticky; */
+    /* top: 0px; */
+    height: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* text-align: center; */
 }
 
 .barreNavigation a {
-    padding-top: 10px;
+    padding-top: 12px;
     width: 16.6%;
     height: 100%;
     text-align: center;
@@ -55,6 +61,20 @@ body {
     background-color: white;
     transition-duration: 1s;
     text-decoration: none;
+}
+
+/* BOUTTONS DE PARTAGE LATERAUX */
+.barreLateralePartage {
+    position: fixed;
+    top: 250px;
+    left: 0px;
+}
+
+.iconeRS {
+    height: 55px;
+    width: 55px;
+    margin-bottom: 10px;
+    padding-left: 2px;
 }
 
 /* STYLE DU CAROUSEL */
@@ -68,12 +88,87 @@ body {
     
 }
 
+
+.mobileDroit {
+    position: fixed;
+    width: 300px;
+    right: 3%;
+    top: 190px;
+}
+
+/* AUTRES ARTICLES */
+.boiteArticles {
+    position: fixed;
+    top: 190px;
+    right: 3%;
+    height: 255px;
+    width: 300px;
+    background-color: white;
+    border: dotted;
+}
+
+.boiteArticlesContenu {
+    margin: 40px;
+}
+
+.boiteArticlesContenu h2 {
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 10px;
+}
+
+.boiteArticlesContenu li {
+    padding-bottom: 5px;
+}
+
+/* NEWSLETTER */
+.newsletter {
+    position: fixed;
+    top: 460px;
+    right: 3%;
+    height: 220px;
+    width: 300px;
+    background-color: white;
+    border: dotted;
+}
+
+.newsletterTexte {
+    margin: 40px;
+    padding-bottom: 0px;
+}
+
+.newsletter input {
+    margin-left: 40px;
+    width: 215px;
+}
+
+/* .newsletterContenu {
+    padding: 40px;
+} */
+
+.newsletterContenu p {
+    border-bottom: 1px solid;
+}
+
 /* STYLE CORPS DES ARTICLES ET RECETTES */
+.titreArticle {
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+    margin: 20px 0;
+}
+
 .cadreImageArticle {
-    width: 800px;
+    width: 1024px;
     height: 400px;
     overflow: hidden;
     margin: 0px auto 8px;
+    display: block;
+    text-align: center;
+}
+
+.cadreImageArticle img {
+    margin: 0px auto;
+    max-width: 90%;
+    max-height: 100%;
 }
 
 table {
@@ -104,7 +199,7 @@ td {
     margin: 5px;
     width: 325px;
     height: 300px;
-    background-color: red;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -121,7 +216,7 @@ td {
 .carreRecettes h2 {
     z-index: 4;
     padding: 15px;
-    background-color: green;
+
 }
 
 
@@ -151,6 +246,28 @@ footer {
 
 
 /* REACTIVITE - RESPONSIVENESS */
+
+@media (max-width: 1520px) {
+
+    .mobileDroit {
+        /* position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly; */
+        display: none;
+    }
+
+    .cadreCentral {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1125px) {
+    .barreLateralePartage {
+        display: none;
+    }
+}
+
 @media (max-width: 700px) {
 
     .conteneurCarousel {
@@ -158,7 +275,7 @@ footer {
     }
 
     /* A CORRIGER OU SUPPRIMER: ne s'affiche pas mais prend tout de même de la place (JS?) */
-    footer a {
+    .mapExtra {
         display: none;
     }
 }
