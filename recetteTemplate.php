@@ -83,29 +83,7 @@
     
 <?php echo file_get_contents("subpages/mobileDroit.php"); ?>
     
-            <!-- CARRES POUR LES RECETTES -->
-            <div class="conteneurCarres">
-    
-                <a href="recette.php">
-                  <div class="carreRecettes">
-                    <img src="img/gyozas_vignette.png" alt="Image please">
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolores harum unde vitae delectus vel?</h2>
-                  </div>
-                </a>
-    
-                <a href="jquery-nav.php">
-                  <div class="carreRecettes" href="recette.php">
-                    <img src="img/ramen_vignette.png" alt="Image please">
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolores harum unde vitae delectus vel?</h2>
-                  </div>
-                </a>
-    
-                <div class="carreRecettes">
-                  <img src="img/mapotofu_vignette.png" alt="Image please">
-                  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolores harum unde vitae delectus vel?</h2>
-                </div>
-    
-            </div>
+<?php echo file_get_contents("subpages/carresRecettesSmall.php"); ?>
     
         </div>
     
