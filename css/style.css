@@ -163,12 +163,14 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    border-bottom: solid 1px;
+    margin-bottom: 20px;
 }
 
 .titreArticle {
     width: 80%;
-    padding-bottom: 20px;
-    border-bottom: 1px solid;
+    /* padding-bottom: 20px; */
+    /* border-bottom: 1px solid; */
 }
 
 .topLineRight {
@@ -189,11 +191,6 @@ body {
 .modeNuit {
     border-right: dotted 3px black;
 }
-
-/* .anchorLink {
-    width: 45px;
-    padding-left: 4px;
-} */
 
 .modeNuit:hover, .anchorLink:hover {
     cursor: pointer;
@@ -236,13 +233,28 @@ body {
 .chapeauArticle {
     font-weight: bold;
     font-size: 1.2rem;
-    margin: 0px 50px 20px 50px;
+    padding: 0px 50px 20px 80px;
+    /* padding-bottom: 30px; */
+    border-bottom: solid 1px;
 }
 
 .corpsArticle {
     font-family: 'Roboto', sans-serif;
     line-height: 150%;
-    margin: 0px 40px;
+    margin: 0px 5px 100px 5px;
+}
+
+.corpsArticle h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 20px 0px 10px 20px;
+}
+
+.embeddedVideo {
+    margin: 40px auto;
+    max-width: 700px;
+    max-height: 700px;
 }
 
 /* TABLEAU INGREDIENTS */
@@ -298,7 +310,6 @@ td {
     margin: 5px;
     width: 325px;
     min-height: 300px;
-    /* background-color: rgb(109, 107, 228); */
     border-radius: 5px;
     border: solid 1px;
     display: block;

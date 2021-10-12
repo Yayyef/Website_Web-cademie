@@ -5,7 +5,7 @@
       <a href="index.php">ACCEUIL</a>
       <a href="recetteTemplate.php">RECETTES</a>
       <a href="">INGREDIENTS</a>
-      <a href="">ARTICLES</a>
+      <a href="article.php">ARTICLES</a>
       <a href="">CONTACT</a>
       <a href="">A PROPOS</a>
     </div>
