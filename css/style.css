@@ -273,7 +273,6 @@ body {
     padding-bottom: 100px;
 }
 
-
 table {
     margin: 20px auto;
     max-width: 500px;
@@ -284,8 +283,6 @@ td {
     padding: 5px;
     border: solid;
 }
-
-
 
 
 /* CSS POUR LES CARRES-VIGNETTES RECETTES */
@@ -300,9 +297,10 @@ td {
     overflow: hidden;
     margin: 5px;
     width: 325px;
-    height: 300px;
-    background-color: white;
+    min-height: 300px;
+    /* background-color: rgb(109, 107, 228); */
     border-radius: 5px;
+    border: solid 1px;
     display: block;
     margin-bottom: 20px;
 }
@@ -320,7 +318,6 @@ td {
 .carreRecettes h2 {
     z-index: 4;
     padding: 15px;
-    /* border: 1px solid black; */
 }
 
 .carreRecettes h2::first-line {
