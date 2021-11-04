@@ -7,16 +7,14 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <a href="recetteTemplate.php">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="img/ramen_carousel.png" alt="First slide">
-            </div>
-          </a>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/mapotofu_carousel.png" alt="Second slide">
+          <div class="carousel-item active">
+            <a href="recetteTemplate.php"><img class="d-block w-100" src="img/ramen_carousel.png" alt="First slide"></a>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="img/gyozas_carousel.png" alt="Third slide">
+            <a href="recetteTemplate.php"><img class="d-block w-100" src="img/mapotofu_carousel.png" alt="Second slide"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="recetteTemplate.php"><img class="d-block w-100" src="img/gyozas_carousel.png" alt="Third slide"></a>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

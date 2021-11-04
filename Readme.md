@@ -11,6 +11,7 @@ Enfin, j'entends connecter le site à une base de données dans le but ensuite d
 
 
 ROADMAP:
+-Régler problèmes night mode lorsque anchor-link est absent. Améliorer les couleurs night mode.
 -Optimisation SEO (compléter les alt, ajouter des meta, ajouter des liens vers d'autres sites)
 -Composition de pages via PHP/SQL
 -Création d'un formulaire de contact opérationnel

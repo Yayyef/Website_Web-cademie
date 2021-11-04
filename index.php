@@ -1,6 +1,11 @@
-<?php echo file_get_contents("subpages/header.php"); ?> 
+<?php echo file_get_contents("subpages/head.php"); ?> 
 
 <body>
+<!-- <div class="disclaimerWrapper">
+  <div class="disclaimer">
+        <p>NOTE WEB@CADEMIE: Je désire faire de ce site un élément important de mon portfolio. En conséquence, toutes les fonctionnalités et éléments d'habillage (la banniere, l'arrière plan) de ce site ne sont pas encore implémentées. Le mobile droit ne fonctionne pas encore comme il le devrait. Tous les liens recettes mènent vers la même page. Pour l'heure, le site compte 6 pages différentes: <a href="">index.php</a>, <a href="recetteTemplate.php">recetteTemplate.php</a>, <a href="article.php">article.php</a>, <a href="ingredients.php">ingredients.php</a>, <a href="contact.php">contact.php</a>, et <a href="apropos.php">apropos.php</a>. Les versions ultérieures du site seront disponibles sur mon gitHub: <a href="https://github.com/Yayyef">https://github.com/Yayyef</a>. Plus d'informations dans la page à propos et le fichier lisez-moi.</p>
+  </div>
+</div> -->
 
 <?php echo file_get_contents("subpages/banniere.php");?>
 

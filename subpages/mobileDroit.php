@@ -5,7 +5,7 @@
                 <div class="boiteArticlesContenu">
                   <h2>Nos Articles</h2>
                   <ul>
-                    <a href="article.php">
+                    <a href="ingredients.php">
                         <li>Les ingrédients indispensables!</li>
                     </a>
                     <a href="article.php">

@@ -5,6 +5,20 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+.disclaimerWrapper {
+    width: 100%;
+    background-color: darkslategray;
+}
+
+.disclaimer {
+    max-width: 1200px;
+    background-color: rgb(252, 252, 153);
+    font-family: monospace;
+    font-size: 1.1rem;
+    margin: 0px auto;
+    padding: 5px;
+}
+
 .cadreCentral {
     /* margin: 0 auto; */
     margin-left: 10%;
@@ -68,7 +82,9 @@ body {
 /* BURGERMENU */
 .menuMobile {
     display: none;
-    margin: 0px auto;
+    width: 30px;
+    padding: 5px;
+    margin-left: 10%;
     width: 30px;
 }
 
@@ -76,8 +92,11 @@ body {
     width: 40px;
 }
 
-.mobileMenu {
-    width: 100%;
+.mobileButton {
+    width: 200px;
+    height: 20px;
+    margin: 10px auto;
+    border-bottom: dotted 2px;
 }
 
 /* BOUTTONS DE PARTAGE LATERAUX */
@@ -103,7 +122,7 @@ body {
     overflow: hidden;
 }
 
-
+/* MOBILE DROIT */
 .mobileDroit {
     position: fixed;
     width: 300px;
@@ -115,15 +134,15 @@ body {
 /* AUTRES ARTICLES */
 .boiteArticles {
     position: fixed;
-    top: 190px;
+    top: 225px;
     right: 3%;
-    height: 255px;
+    height: 215px;
     width: 300px;
     border: dotted;
 }
 
 .boiteArticlesContenu {
-    margin: 40px;
+    margin: 15px 40px;
 }
 
 .boiteArticlesContenu h2 {
@@ -168,7 +187,7 @@ body {
 }
 
 .titreArticle {
-    width: 80%;
+    width: 60%;
     /* padding-bottom: 20px; */
     /* border-bottom: 1px solid; */
 }
@@ -188,8 +207,12 @@ body {
     margin-right: 5px ;
 }
 
-.modeNuit {
+/* .modeNuit {
     border-right: dotted 3px black;
+} */
+
+.anchorLink {
+    border-left: dotted 3px black;
 }
 
 .modeNuit:hover, .anchorLink:hover {
@@ -241,7 +264,7 @@ body {
 .corpsArticle {
     font-family: 'Roboto', sans-serif;
     line-height: 150%;
-    margin: 0px 5px 100px 5px;
+    margin: 50px 5px 50px 5px;
 }
 
 .corpsArticle h1 {
@@ -255,6 +278,51 @@ body {
     margin: 40px auto;
     max-width: 700px;
     max-height: 700px;
+}
+
+/* FORMULAIRE DE CONTACT */
+.formulaire {
+    margin: 40px 10px 40px 20px;
+    width: 100%;
+    min-height: 200px;
+}
+
+.styleInput {
+    margin-bottom: 15px;
+}
+
+.styleInput label {
+    margin-bottom: 5px;
+}
+
+.inputRadio label {
+    margin-right: 5px;
+}
+
+.bouttonEnvoyer {
+    padding: 10px;
+    color: black;
+    border: solid black;
+    border-radius: 5px;
+}
+
+.bouttonEnvoyer:hover {
+    cursor: pointer;
+}
+
+/* LIEN GITHUB DANS LA PAGE A PROPOS */
+.lienGithub {
+    width: 170px;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px 0px;
+    border: solid 1px;
+    justify-content: center;
+}
+
+.lienGithub a {
+    font-family: 'Roboto Slab', serif;
+    color: white;
 }
 
 /* TABLEAU INGREDIENTS */
@@ -281,7 +349,7 @@ body {
 }
 
 .tableIngredients {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
 }
 

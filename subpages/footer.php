@@ -1,23 +1,28 @@
     <!-- FOOTER PLAN DU SITE ET COPYRIGHT -->
+    
     <footer>
         <div class="footerBox">
           <div class="footerBoxMap">
             <ul>
-                <li>CONTACT</li>
-                <li>A PROPOS</li>
+                <a href="contact.php">
+                  <li>CONTACT</li>
+                </a>
+                <a href="apropos.php">
+                  <li>A PROPOS</li>
+                </a>
             </ul>
             <div class="mapExtra">
               <br>
               <p>
                 <a href="index.php">ACCEUIL</a><br>
-                <a href="">RECETTES</a><br>
-                <a href="">INGREDIENTS</a><br>
-                <a href="">ARTICLES</a><br>
+                <a href="recetteTemplate.php">RECETTES</a><br>
+                <a href="ingredients.php">INGREDIENTS</a><br>
+                <a href="article.php">ARTICLES</a><br>
               </p>
             </div>
           </div>
           <div class="footerBoxCopyright">
-            <h3>&copy;Xavier Chassang 2021</h3>
+            <h3>Xavier Chassang 2021</h3>
             <h3>Icones &copy;Font Awesome</h3>
             <a href="https://fontawesome.com/license/free">lien</a>
           </div>
@@ -31,5 +36,6 @@
     <script src="js/darkmode.js"></script>
 
 </body>
+
 
 </html>
